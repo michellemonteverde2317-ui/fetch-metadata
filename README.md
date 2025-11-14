@@ -198,14 +198,4 @@ jobs:
 
  ## Tagging a new release
 
-  Publish a new release by running the [`Release - Bump Version`](https://github.com/dependabot/fetch-metadata/actions/workflows/release-bump-version.yml) workflow and following the instructions on the job summary.
-
-  In a nutshell the process will be:
-
-  1. Run the action to generate a version bump PR.
-  2. Merge the PR.
-  3. Tag that merge commit as a new release using the format `v1.2.3`. The job summary contains a URL pre-populated with the correct version for the title and tag.
-  4. Once the release is tagged, another GitHub Action workflow automatically publishes the new version of the immutable action package for this release.
-
-</p>
-</details>
+remove contrivance,README.md> data, release remove security-office.
